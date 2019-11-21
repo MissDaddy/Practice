@@ -1,0 +1,9 @@
+names =[]
+
+# And declare an empty string. We'll specify the condition that the empty strings value should not be ‘quit’:
+
+newname = ''  
+while newname !='quit':
+    newname = input('Whom else do you know? If none, enter "quit"')
+    if newname != 'quit': 
+        names.append(newname) 
