@@ -1,9 +1,49 @@
-names =[]
+#Comparing value sizes
+X = 1
+Y = 2
 
-# And declare an empty string. We'll specify the condition that the empty strings value should not be ‘quit’:
+if X > Y :
+  print ('X is a big boi!')
+else :
+  print ('Y is a big boi!')
+  
+  
+  
+  
+#Loops of entry
+name = '<insert>'
 
-newname = ''  
-while newname !='quit':
-    newname = input('Whom else do you know? If none, enter "quit"')
-    if newname != 'quit': 
-        names.append(newname) 
+if name == 'Kadie':
+    print('Welcome, Miss Daddy!')
+elif name == 'Jen':
+    print('Hi, Jen!')
+elif name == 'Max':
+    print('Hello, cat!')
+else:
+    print('Go away, intruder!')
+    
+    
+    
+    
+ #Creating a dictionary
+ names = {
+    'Kadie': 'Hello, Miss Daddy. Please come in.',
+    'Jen': 'Hi, Jen. Come on in!',
+    'Max': 'Hello, Max. The catflap is to your left.'
+}
+
+print(names.get('Max', 'Who the fuck are you?')) #If its not the name in the first, it will print the second!
+
+
+
+
+#Primitive loop game (fruit song)
+for fruits in ['Apple', 'Pear', 'Banana', 'Pomegranate', 'peach']:
+    print('Can I get a ')
+    print(fruits)
+    print(" up in here?")   
+print("HELL YEAH.")
+
+
+
+
